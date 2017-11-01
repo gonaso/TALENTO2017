@@ -64,3 +64,17 @@ textarea {
     color:white;
     font-weight:bold;
 }
+
+.slick-slider{
+    width:100%;
+}
+
+    .slick-slider img:hover {
+        height: 400px;
+        width: 400px;
+        margin-left: -50px;
+        
+        z-index: 200;
+    }
+
+

@@ -7,9 +7,15 @@
     <title>@ViewBag.Title - Mi aplicación ASP.NET</title>
     @Styles.Render("~/Content/css")
     @Scripts.Render("~/bundles/modernizr")
+    <link rel="stylesheet" type="text/css" href="~/Content/slick.css" />
+   
+    <link rel="stylesheet" type="text/css" href="~/Content/slick-theme.css" />
+    
+
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="~/Content/materialize.min.css" media="screen,projection" />
+    
 </head>
 <body>
 
@@ -17,7 +23,7 @@
         <div class="nav-wrapper barra-navegacion">
             <img src="~/Imagenes/LogoTalento RyB.png" class="logo-talento" />
             <ul id="nav-mobile" class="right hide-on-med-and-down menu">
-                <li><a href="~/Views/Home/Index.cshtml">INICIO</a></li>
+                <li><a href="#">INICIO</a></li>
                 <li><a href="#">AGENDA</a></li>
                 <li><a href="#l">MI PERFIL</a></li>
                 <li><a href="#">TALENTÓMETRO</a></li>
@@ -125,6 +131,9 @@
     <script src="~/Scripts/Layout.js"></script>
     <script src="~/Scripts/materialize.js"></script>
     <script src="~/Scripts/materialize.min.js"></script>
-    
+   
+   
+    <script type="text/javascript" src="~/Scripts/slick.min.js"></script>
+   
 </body>
 </html>

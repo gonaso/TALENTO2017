@@ -1,0 +1,47 @@
+﻿<script src="~/Scripts/VistaPerfil.js" type="text/javascript"></script>
+@{
+    ViewBag.Title = "VistaPerfil";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+   
+}
+
+
+
+<body>
+    <div class="slick-slider">
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+        <div><img src="https://lorempixel.com/250/250/nature/1" /></div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="~/Scripts/slick.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('.slick-slider').slick({
+                autoplay: true,
+                arrows: false,
+                centerMode: true,
+                slidesToShow: 3
+                
+            });
+        });
+    </script>
+</body>
+
+    
+
+
+
+
+
+        
+
+       
+    
