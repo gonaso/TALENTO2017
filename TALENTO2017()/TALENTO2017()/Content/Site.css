@@ -1,0 +1,66 @@
+﻿body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:lightgrey;
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.barra-navegacion{
+    background-color:black;
+}
+
+.pie{
+    background-color:black !important;
+}
+
+.redes-sociales{
+    width:30px;
+}
+
+.cordoba{
+    text-align:right;
+}
+
+.logo-talento{
+    width:60px;
+    margin-left:20px;
+}
+
+.barra-busqueda{
+    background-color:white !important;
+}
+
+.tarjetas{
+    height:300px;
+}
+
+.imagen-tarjetas{
+    height:300px;
+    width:460px;
+}
+
+.barra-navegacion a:hover{
+    background-color:red;
+    text-decoration:none;
+    color:white;
+    font-weight:bold;
+}
