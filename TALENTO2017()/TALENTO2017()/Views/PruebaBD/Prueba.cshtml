@@ -1,0 +1,16 @@
+﻿@using TALENTO2017__.Models
+@model IEnumerable<Users>
+
+<table border="1">
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>@Html.DisplayFor(modelItem => item)</td>
+            <td>
+                @Html.DisplayFor(modelItem => item.nombre)
+            </td>
+            @*<td>@Html.DisplayFor(modelItem => item.password)</td>*@
+        </tr>
+    }
+</table>
+
