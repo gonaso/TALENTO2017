@@ -24,8 +24,9 @@
             <img src="~/Imagenes/LogoTalento RyB.png" class="logo-talento" />
             <ul id="nav-mobile" class="right hide-on-med-and-down menu">
                 <li><a href="~/Controllers/HomeController.cs">INICIO</a></li>
-                <li><a href="~/Controllers/VistaAgendaController.cs">AGENDA</a></li>
-                <li><a href="~/Controllers/VistaPerfilController.cs">MI PERFIL</a></li>
+                <li><a href="~/Views/VistaAgenda/Agenda.cshtml">AGENDA</a></li>
+                <li><a href="#">MI PERFIL</a></li>
+                <li>@Html.ActionLink("TALENTOS","VistaPerfil", "ListaPerfiles")</li>
                 <li><a href="#">TALENTÓMETRO</a></li>
                 <li><a href="#">CONTACTO</a></li>
                 <li><a href="#">ACERCA DE..</a></li>

@@ -162,10 +162,9 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\PerfilesController.cs" />
     <Compile Include="Controllers\PruebaBDController.cs" />
     <Compile Include="Controllers\VistaAgendaController.cs" />
-    <Compile Include="Controllers\VistaPerfilController.cs" />
+    <Compile Include="Controllers\ListaPerfilesController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -244,12 +243,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\VistaAgenda\Agenda.cshtml" />
-    <Content Include="Views\VistaPerfil\VistaPerfil.cshtml" />
     <Content Include="Views\PruebaBD\Prueba.cshtml" />
+    <Content Include="Views\ListaPerfiles\VistaPerfil.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Views\Perfiles\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

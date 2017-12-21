@@ -6,7 +6,7 @@ using System.Web.Mvc;
 
 namespace TALENTO2017__.Controllers
 {
-    public class VistaPerfilController : Controller
+    public class ListaPerfilesController : Controller
     {
         // GET: VistaPerfil
         public ActionResult VistaPerfil()
